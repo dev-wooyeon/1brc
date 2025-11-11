@@ -1,0 +1,26 @@
+{
+  "pipeline": "spark_duckdb",
+  "timestamp": "2025-11-11T07:38:33.325575Z",
+  "csv_dir": "../data/measurements.txt",
+  "parquet_dir": "../data/parquet",
+  "results_dir": "results",
+  "etl_time_sec": 161.2601525420032,
+  "load_time_sec": 14.555807374999858,
+  "read_time_sec": 29.13307654199889,
+  "total_time_sec": 204.94903645900195,
+  "cpu_placeholder": null,
+  "memory_placeholder": null,
+  "etl_details": {
+    "etl_time_sec": 161.2601525420032,
+    "records": 1000000000,
+    "parquet_dir": "../data/parquet",
+    "engine": "spark"
+  },
+  "olap_details": {
+    "load_time_sec": 14.555807374999858,
+    "read_time_sec": 29.13307654199889,
+    "rows": 8835,
+    "output_path": "results/spark_duckdb_agg.parquet",
+    "engine": "duckdb"
+  }
+}

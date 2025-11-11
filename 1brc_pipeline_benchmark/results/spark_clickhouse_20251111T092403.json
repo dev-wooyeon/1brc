@@ -1,0 +1,26 @@
+{
+  "pipeline": "spark_clickhouse",
+  "timestamp": "2025-11-11T09:24:03.115993Z",
+  "csv_dir": "../data/measurements.txt",
+  "parquet_dir": "../data/parquet",
+  "results_dir": "results",
+  "etl_time_sec": 165.7461184170097,
+  "load_time_sec": 0.0,
+  "read_time_sec": 15.029252249980345,
+  "total_time_sec": 180.77537066699006,
+  "cpu_placeholder": null,
+  "memory_placeholder": null,
+  "etl_details": {
+    "etl_time_sec": 165.7461184170097,
+    "records": 1000000000,
+    "parquet_dir": "../data/parquet",
+    "engine": "spark"
+  },
+  "olap_details": {
+    "load_time_sec": 0.0,
+    "read_time_sec": 15.029252249980345,
+    "output_path": "results/spark_clickhouse_agg.parquet",
+    "engine": "clickhouse-local",
+    "stderr": "......\n"
+  }
+}
